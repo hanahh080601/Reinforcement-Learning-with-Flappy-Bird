@@ -15,8 +15,10 @@ This project follows the description of the Deep Q Learning algorithm described 
 
 ## How to Run?
 ```
-git clone https://github.com/yenchenlin1994/DeepLearningFlappyBird.git
-cd DeepLearningFlappyBird
+git clone https://github.com/hanahh080601/Reinforcement-Learning-with-Flappy-Bird.git
+python -m venv venv
+. venv/Scripts/activate
+pip install -r requirements.txt
 python deep_q_network.py
 ```
 
